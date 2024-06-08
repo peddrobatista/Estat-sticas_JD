@@ -1,0 +1,13 @@
+@import url(_variaveis.css);
+
+.footer {
+  grid-row: 19;
+  grid-column: 1 / -1;
+  text-align: center;
+  background-color: var(--amarelo);
+  padding: 40px;
+
+  .footer--copyright {
+    font-weight: 600;
+  }
+}

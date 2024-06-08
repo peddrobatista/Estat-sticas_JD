@@ -1,0 +1,34 @@
+.tabela {
+    grid-row: 13 / 18;
+    grid-column: 2 / 10;
+    overflow-y: auto;
+  }
+  .tabela--titulo {
+      padding: 1rem;
+      font-size: 2rem;
+      text-align: left;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  
+  table {
+      text-wrap: nowrap;
+      text-align: center;
+      border-spacing: 20px 10px;
+      text-transform: capitalize;
+      /* border: solid var(--cinza) 4px; */
+      font-family: "Kanit", sans-serif;
+  }
+  
+  th {
+    position: sticky;
+    top: 0;
+    background-color: var(--cinza-2);
+    color: #fff;
+  }
+  
+  th,
+  td {
+    border: solid var(--cinza) 2px;
+    padding: 8px 16px;
+  }

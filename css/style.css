@@ -1,0 +1,21 @@
+@import url(_variaveis.css);
+@import url(_header.css);
+@import url(_sobre.css);
+@import url(_footer.css);
+@import url(tabela.css);
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--cinza);
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(10, calc(100vw / 10));
+  grid-template-rows: repeat(20, calc(100vh / 20));
+  font-family: "Open Sans", sans-serif;
+}

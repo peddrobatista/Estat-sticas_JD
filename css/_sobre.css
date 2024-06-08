@@ -1,0 +1,23 @@
+@import url(_variaveis.css);
+
+.sobre {
+  grid-row: 4 / 10;
+  grid-column: 2 / 10;
+  padding: 1rem;
+  /* overflow-y: scroll; */
+  /* border: var(--cinza) solid 4px; */
+
+  .sobre--titulo {
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-family: "DM Serif Text", serif;
+  }
+
+  .sobre--texto {
+    padding: 1rem 0;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cinza);
+  }
+}
